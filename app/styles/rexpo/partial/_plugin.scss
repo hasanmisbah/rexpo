@@ -1,0 +1,18 @@
+.owl-carousel .owl-dots .owl-dot span{
+  width: 20px;
+  height: 6px;
+  border-radius: 4px;
+  border: 2px solid $primary-color;
+  margin: 0 2px;
+  background-color: #fff;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: $primary-color;
+}
+.owl-stage-outer{
+  margin: 0 auto;
+}
+.nav-bg{
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+}

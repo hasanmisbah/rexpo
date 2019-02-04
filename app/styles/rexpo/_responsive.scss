@@ -1,0 +1,139 @@
+@include mediaMd {
+
+  .container {
+    width: 100%;
+    max-width: 95%;
+    margin: 0 auto;
+  }
+
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    width: 100%;
+    display: block;
+    float: none;
+  }
+
+  header {
+    display: block;
+    overflow: hidden;
+    padding: 0;
+
+    nav {
+      padding: 0;
+    }
+
+    .branding {
+      text-align: center;
+      padding: 10px 0;
+
+    }
+  }
+
+  nav {
+    .res-icon {
+      visibility: visible;
+    }
+  }
+
+
+  ul#nav {
+    visibility: hidden;
+    display: none;
+
+    &.show {
+      visibility: visible;
+      display: block;
+      margin-top: 40px;
+      width: 100%;
+
+      li {
+        display: block;
+        text-align: left;
+        width: 100%;
+        border-bottom: 1px solid $primary-color;
+      }
+    }
+  }
+
+  img {
+    max-width: 95%;
+    height: auto;
+  }
+
+  #home {
+    .images {
+      margin: 0;
+      padding-top: 50px;
+      text-align: center;
+    }
+  }
+
+  .intro {
+    margin: 15px 0 0 0 !important;
+    text-align: center;
+
+    h5 {
+      margin-bottom: 0.1rem;
+    }
+  }
+
+  #about {
+    .content {
+      text-align: center;
+
+      p {
+        margin: 5px 0 0 0;
+      }
+    }
+  }
+
+  footer {
+    padding: 15px 0;
+  }
+
+  .title {
+    width: 100%;
+    max-width: 95%;
+
+    h2 {
+      font-size: 25px;
+      line-height: 1.5;
+    }
+  }
+
+  #portfolio {
+    .content-items {
+      .portfolio-item {
+        h4{
+          text-align: center;
+          font-size: 25px;
+        }
+        .tag {
+          text-align: center;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+
+  #about,
+  #services,
+  #experience,
+  #testimonial,
+  #portfolio,
+  #blog,
+  #contact {
+    padding: 10vh 0;
+  }
+
+}

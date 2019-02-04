@@ -1,0 +1,34 @@
+@import
+      './config',
+      './class',
+      './mixins',
+      './grid',
+      './typography',
+      './partial/index',
+      './responsive';
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+body{
+  font-family: $primary-font;
+  font-size : 14px;
+  line-height: 24px;
+  font-weight: normal;
+  color: $black;
+}
+
+header, main, footer, section{
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+a{
+  text-decoration: none;
+}
+img{
+  width: 100%;
+  height: auto;
+}

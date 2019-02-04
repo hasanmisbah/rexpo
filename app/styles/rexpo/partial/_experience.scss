@@ -1,0 +1,31 @@
+#experience {
+  .card {
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    margin: 0 0 30px;
+    overflow: hidden;
+
+    &-title {
+      background-color: $secondary-color;
+      padding: 8px 20px;
+      color: #fff;
+    }
+
+    &-body {
+      padding: 30px;
+
+      h5 {
+        color: $primary-color;
+      }
+
+      p.name {
+        font-weight: 700;
+        margin: 0 0 10px 0;
+      }
+    }
+  }
+
+  .btn-box {
+    margin: -30px 0 30px 0;
+  }
+}

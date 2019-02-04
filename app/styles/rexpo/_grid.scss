@@ -1,0 +1,29 @@
+%config {
+  float: left;
+  padding: 0 15px;
+}
+
+@for $i from 1 through 12 {
+  .col-#{$i} {
+    width: percentage($i / 12);
+    @extend %config;
+  }
+}
+.container-fluid {
+  width: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.row {
+  margin: 0 -15px;
+
+  &:before,
+  &:after {
+    clear: both;
+    display: table;
+  }
+}

@@ -1,0 +1,95 @@
+
+/*
+
+config scss
+
+
+*/
+
+$primary-color : #325eff;
+$secondary-color : #130f40;
+$grey : #555;
+$black : #212529;
+
+
+
+$primary-font : 'Raleway', sans-serif;
+$secondary-font : 'Montserrat', sans-serif;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  &:before,
+  &:after {
+    box-sizing: inherit;
+  }
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: lighten($secondary-color, 9);
+  outline: 1px solid slategrey;
+}
+
+/* Social Media Color */
+i{
+  color: #fff;
+  transition: all .3s ease;
+}
+i.fa-facebook-f{
+  background-color: #3b5998;
+  border: 1px solid #fff;
+}
+i.fa-twitter{
+  background-color: #00aced;
+  border: 1px solid #fff;
+}
+i.fa-google-plus{
+  background-color: #DB4437;
+  border: 1px solid #fff;
+}
+i.fa-behance{
+  background-color: #1769ff;
+  border: 1px solid #fff;
+}
+i.fa-linkedin{
+  background-color: #0077b5;
+  border: 1px solid #fff;
+}
+
+i.fa-facebook-f:hover{
+  color: #3b5998;
+  border: 1px solid #3b5998;
+  background-color: #fff;
+}
+i.fa-twitter:hover{
+  color: #00aced;
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+i.fa-google-plus:hover{
+  color: #DB4437;
+  border: 1px solid #DB4437;
+  background-color: #fff;
+}
+i.fa-behance:hover{
+  color: #1769ff;
+  border: 1px solid #1769ff;
+  background-color: #fff;
+}
+i.fa-linkedin:hover{
+  color: #0077b5;
+  border: 1px solid #0077b5;
+  background-color: #fff;
+}

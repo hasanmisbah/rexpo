@@ -1,0 +1,56 @@
+#testimonial {
+
+
+  .testimonial {
+    padding: 20px 20px 35px;
+    background-color: #ffffff;
+    border: 1px solid #e6f0fa;
+    border-radius: 10px;
+    position: relative;
+
+    h5 {
+      margin: 30px 0 0;
+      color: $primary-color;
+    }
+
+    h6 {
+      font-size: 14px;
+      line-height: 24px;
+      margin: 0 0 15px;
+      color: $black;
+    }
+
+    .client {
+      max-width: 100px;
+      max-height: 100px;
+      border-radius: 50%;
+      box-shadow: 0 0 5px lighten($secondary-color, 9);
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+      display: block;
+      overflow: hidden;
+
+      img {
+        max-width: 100px;
+        width: 100%;
+        border-radius: 50%;
+      }
+
+    }
+
+    .icon {
+      display: inline-block;
+      position: absolute;
+      right: 25%;
+      bottom: 15%;
+
+      i {
+        padding: 20px;
+        color: lighten($primary-color, 9);
+        font-size: 80px;
+        opacity: .3;
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+#portfolio {
+  .content-items {
+    background-color: #fff;
+    padding: 25px 25px;
+    display: block;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+
+    .portfolio-item {
+      .tag {
+        font-weight: 600;
+        color: #fff;
+        background-color: $secondary-color;
+        padding: 2px 12px;
+        display: inline-block;
+        margin: 0 0 15px;
+        border-radius: 3px;
+        font-size: 13px;
+        line-height: 23px;
+
+      }
+
+      h4 {
+        color: $primary-color;
+        margin: 0 0 5px;
+      }
+
+      p {
+        margin-bottom: 1rem;
+        font-weight: 500;
+      }
+
+      .info-box {
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
